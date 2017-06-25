@@ -1,0 +1,600 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: auto;
+    height: 100vh;
+}
+
+.padding-top {
+    padding-top: 50px;
+}
+
+.padding-bottom {
+    padding-bottom: 50px;
+}
+
+.bg-gray {
+    background-color: #f5f5ef;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    width: 960px;
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header-bg {
+    background-image: url(../img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    padding: 20px 0;
+}
+
+header small {
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+header small span {
+    color: #ffe400;
+}
+.menu {
+    background-color: #d51920;
+}
+.menu nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu nav a {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 1.5;
+    height: 50px;
+    text-decoration: none;
+    padding: 15px 25px 15px 26px;
+    border-right: 1px solid #aa141a;
+}
+
+.menu nav a:first-child {
+    border-left:  1px solid #aa141a;
+}
+
+.menu nav a:hover {
+    background-color: #b80f15;
+}
+
+.main-bg {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#cta {
+    padding-top: 120px;
+}
+
+#cta h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    letter-spacing: -2px;
+    color: #fff;
+    text-shadow: 1px 1px 5px #000;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 0;
+}
+
+#cta h2 {
+    font-family: 'Muli', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 1px 1px 5px #000;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.btn-cta {
+    background-color: #eb1b22;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    width: 320px;
+    margin-bottom: 150px;
+}
+
+.btn-cta span {
+    color: #ffe400;
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+}
+
+#cta small {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    text-shadow: 1px 1px 5px #000;
+    color: #fff;
+    text-align: right;
+    display: block;
+    margin-right: 25px;
+    letter-spacing: 2.6px;
+}
+
+.form {
+    background-color: rgba(0, 0, 0, .5);
+    margin-top: 30px;
+    
+}
+
+.form h2 {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+.form h2 span {
+    color: #ffe400;
+    font-weight: 700;
+}
+
+.wrapper img[src*="arrow"] {
+    position: absolute;
+    bottom: 35px;
+    right: 220px;
+}
+
+.form .wrapper input {
+    padding: 10px 0 10px 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin: 0 3px;
+    width: 170px;
+}
+
+.form .wrapper .download {
+    background-color: #eb1b22;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    width: 150px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+
+
+.title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-family: 'Muli', sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    color: #333;
+    text-align: center;
+}
+
+#private-lessons .content {
+    display: flex;
+    margin: 50px 0;
+}
+
+.wrapper img[src*="private-sing-lessons-logo"] {
+    position: absolute;
+    top: 100px;
+    right: 300px;
+}
+
+#private-lessons .content .mic {
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+
+
+.description,
+.container-bio .biography .description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+
+
+ .description-list li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.5;
+    margin: 10px 0 10px 15px;
+    padding-right: 0;
+}
+
+#private-lessons .btn-cta,
+#bio .btn-cta {
+    margin-bottom: 0;
+    position: absolute;
+    bottom: -40px;
+    right: 300px;
+}
+
+.container-bio .description {
+    margin-top: 50px ;
+}
+
+.container-bio .flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.container-bio .description-list {
+    margin-top: 60px;
+}
+
+.container-bio .biography {
+    display: flex;
+}
+
+.container-bio .biography  p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+img[src*="image-prof-singing"] {
+    margin: 60px 20px 60px 0;
+}
+
+.testemonial-bg {
+    background-image: url(../img/testemonial-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 40px;
+}
+
+.testemonial-bg .title {
+    margin-top: 40px;
+}
+.testemonial-bg .content {
+    display: flex;
+    margin-top: 40px;
+}
+
+img[src*="testemonial"]{
+    margin: 50px;
+}
+
+.testemonial-bg .content article {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.testemonial-bg .content .quote {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    line-height: 1.3;
+    color: #333;
+}
+
+.testemonial-bg .content article span {
+    display: inline-block;
+    font-weight: 700;
+    margin: 0px 40px;
+}
+
+.testemonial-bg .content article p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow {
+    color: #eb1b22;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    color: #ffe400;
+}
+
+.footer .form {
+    background-color: #eb1b22;
+    margin: 0;
+}
+
+.footer .form .download {
+    background-color: #ffe400;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #eb1b22;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    width: 150px;
+    margin-left: 2px;
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .menu nav a {
+        text-align: center;
+        padding: 15px 20px;
+        border: none;
+        font-size: 14px;
+    }
+    
+    .menu nav a:first-child {
+        border: none;
+    }
+    
+    .form h2 {
+        font-size: 18px;
+        display: block;
+    }
+    
+    .wrapper img[src*="arrow"]{
+        display: none;
+    }
+    
+    .form {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .wrapper img[src*="private-sing-lessons-logo"] {
+    display: none;
+}
+}
+
+@media screen and (max-width: 808px){
+    header {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    header small {
+        order: 2;
+        margin: 30px auto 10px;
+    }
+    
+    .menu nav a:nth-child(2n-2){
+        display: none;
+    }
+    .menu nav a:hover {
+        background-color: #d51920;
+    }
+    
+    #cta h1 {
+    font-size: 48px;
+    }
+    
+    #cta h2 {
+    font-size: 20px;
+    }  
+    
+    #private-lessons .content {
+        padding-bottom: 50px;
+    }
+    
+    #private-lessons .btn-cta,
+    #bio .btn-cta {
+    position: absolute;
+    margin-bottom: 0;
+    bottom: -40px;
+    right: 180px;
+    }
+    
+    .description-list {
+        padding: 7px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    #private-lessons .mic {
+        display: none;
+    }
+    
+    .container-bio img[src*="image-prof"]{
+        display: none;
+    }
+    
+    #private-lessons .btn-cta,
+    #bio .btn-cta {
+    position: absolute;
+    margin-bottom: 0;
+    bottom: -40px;
+    right: 100px;
+    }
+    
+    #cta h2 {
+    font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    
+    .header-bg img[src*="logo"]{
+        margin-bottom: 20px;
+    }
+    
+    .form .wrapper input {
+        margin-bottom: 15px;
+    }
+    
+    #private-lessons .btn-cta,
+    #bio .btn-cta {
+    position: absolute;
+    margin-bottom: 0;
+    bottom: -40px;
+    right: 50px;
+    }
+    
+    #cta small {
+    font-size: 28px;
+    text-align: center;
+    }
+    
+    .menu nav a {
+        text-align: center;
+        padding: 15px 15px;
+        border: none;
+        font-size: 14px;
+    }
+    
+    .menu nav a:nth-child(1){
+        display: none;
+    }
+    
+    #cta h1 {
+    font-size: 28px;
+    }
+    
+    #cta h2 {
+    font-size: 15px;
+    }
+    
+    #cta .btn-cta {
+    font-weight: 700;
+    width: 250px;
+    }
+    
+    img[src*="testemonial"]{
+        margin-top: 40px;
+    }
+    
+    div.testemonial-photo {
+        text-align: center; 
+    }
+    
+    .testemonial-bg .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        
+    }
+}
+
+@media screen and (max-width: 420px){
+    .wrapper {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+    
+     header small {
+    font-size: 20px;
+  
+    }
+    
+    .menu nav a {
+        padding: 15px 5px;
+        font-size: 13px;
+    }
+    
+    .main-bg {
+        background-image: none;
+        background-color: #333;
+    }
+    
+    .main-bg #cta {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #cta h2 {
+    font-size: 14px;
+    }
+    
+    .form .wrapper input {
+        width: 100%;
+    }
+    
+    .form h2 span {
+        display: block;
+    }
+    
+    #private-lessons .btn-cta,
+    #bio .btn-cta {
+    position: absolute;
+    margin-bottom: 0;
+    bottom: -40px;
+    right: 20px;
+        width: 90%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
