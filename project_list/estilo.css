@@ -34,23 +34,11 @@ li.concluido:hover {
   background-color: #52be7f;
 }
 
-buttom {
-    position: fixed;
-    z-index: 100;
-    width: 300px;
-    height: 70px;
-    bottom: 60px;
-    right: 60px;
+li.back_to_portfolio {
     background-color: rgb(8, 103, 146);
 }
 
-buttom:hover {
-    position: fixed;
-    z-index: 100;
-    width: 300px;
-    height: 70px;
-    bottom: 60px;
-    right: 60px;
+li.back_to_portfolio:hover {
     background-color: rgba(8, 103, 146, .9);
 }
 
