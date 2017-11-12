@@ -74,17 +74,18 @@ header small span {
     font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.5;
     height: 50px;
     text-decoration: none;
     padding: 15px 25px 15px 26px;
-    border-right: 1px solid #aa141a;
+
+    /*border: 1px solid #aa141a;*/
 }
 
-.menu nav a:first-child {
+/*.menu nav a:first-child {
     border-left:  1px solid #aa141a;
-}
+}*/
 
 .menu nav a:hover {
     background-color: #b80f15;
@@ -157,7 +158,7 @@ header small span {
 .form {
     background-color: rgba(0, 0, 0, .5);
     margin-top: 30px;
-    
+
 }
 
 .form h2 {
@@ -387,20 +388,20 @@ img[src*="testemonial"]{
         border: none;
         font-size: 14px;
     }
-    
+
     .menu nav a:first-child {
         border: none;
     }
-    
+
     .form h2 {
         font-size: 18px;
         display: block;
     }
-    
+
     .wrapper img[src*="arrow"]{
         display: none;
     }
-    
+
     .form {
         text-align: center;
         padding-bottom: 15px;
@@ -415,31 +416,31 @@ img[src*="testemonial"]{
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    
+
     header small {
         order: 2;
         margin: 30px auto 10px;
     }
-    
+
     .menu nav a:nth-child(2n-2){
         display: none;
     }
     .menu nav a:hover {
         background-color: #d51920;
     }
-    
+
     #cta h1 {
     font-size: 48px;
     }
-    
+
     #cta h2 {
     font-size: 20px;
-    }  
-    
+    }
+
     #private-lessons .content {
         padding-bottom: 50px;
     }
-    
+
     #private-lessons .btn-cta,
     #bio .btn-cta {
     position: absolute;
@@ -447,7 +448,7 @@ img[src*="testemonial"]{
     bottom: -40px;
     right: 180px;
     }
-    
+
     .description-list {
         padding: 7px;
     }
@@ -457,11 +458,11 @@ img[src*="testemonial"]{
     #private-lessons .mic {
         display: none;
     }
-    
+
     .container-bio img[src*="image-prof"]{
         display: none;
     }
-    
+
     #private-lessons .btn-cta,
     #bio .btn-cta {
     position: absolute;
@@ -469,22 +470,22 @@ img[src*="testemonial"]{
     bottom: -40px;
     right: 100px;
     }
-    
+
     #cta h2 {
     font-size: 18px;
     }
 }
 
 @media screen and (max-width: 480px){
-    
+
     .header-bg img[src*="logo"]{
         margin-bottom: 20px;
     }
-    
+
     .form .wrapper input {
         margin-bottom: 15px;
     }
-    
+
     #private-lessons .btn-cta,
     #bio .btn-cta {
     position: absolute;
@@ -492,51 +493,51 @@ img[src*="testemonial"]{
     bottom: -40px;
     right: 50px;
     }
-    
+
     #cta small {
     font-size: 28px;
     text-align: center;
     }
-    
+
     .menu nav a {
         text-align: center;
         padding: 15px 15px;
         border: none;
         font-size: 14px;
     }
-    
+
     .menu nav a:nth-child(1){
         display: none;
     }
-    
+
     #cta h1 {
     font-size: 28px;
     }
-    
+
     #cta h2 {
     font-size: 15px;
     }
-    
+
     #cta .btn-cta {
     font-weight: 700;
     width: 250px;
     }
-    
+
     img[src*="testemonial"]{
         margin-top: 40px;
     }
-    
+
     div.testemonial-photo {
-        text-align: center; 
+        text-align: center;
     }
-    
+
     .testemonial-bg .content {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 0;
-        
+
     }
 }
 
@@ -545,22 +546,22 @@ img[src*="testemonial"]{
         max-width: 100%;
         padding: 0 10px;
     }
-    
+
      header small {
     font-size: 20px;
-  
+
     }
-    
+
     .menu nav a {
         padding: 15px 5px;
         font-size: 13px;
     }
-    
+
     .main-bg {
         background-image: none;
         background-color: #333;
     }
-    
+
     .main-bg #cta {
         display: flex;
         flex-direction: column;
@@ -570,15 +571,15 @@ img[src*="testemonial"]{
     #cta h2 {
     font-size: 14px;
     }
-    
+
     .form .wrapper input {
         width: 100%;
     }
-    
+
     .form h2 span {
         display: block;
     }
-    
+
     #private-lessons .btn-cta,
     #bio .btn-cta {
     position: absolute;
@@ -587,14 +588,5 @@ img[src*="testemonial"]{
     right: 20px;
         width: 90%;
     }
-    
+
 }
-
-
-
-
-
-
-
-
-
